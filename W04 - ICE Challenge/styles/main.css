@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    font: Arial;
+    color:white
+}
+h1:hover{
+    text-align: center;
+    font: Arial;
+    color:black
+}
+p{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color:white;
+
+}
+h3{
+    text-align: center;
+    color:white;
+    font: Arial;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+body {
+    background-color: #faa7c9;
+}
+.ordered_list {
+    margin: auto 0;
+    color:black;
+    font: Arial;
+}
+h5{
+    text-align: center;
+    font: Arial;
+}
+.image{
+    text-align: center;
+}
