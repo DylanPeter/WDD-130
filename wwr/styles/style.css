@@ -2,10 +2,13 @@ body {
     max-width: 1600px;
     margin: 0 auto;
 }
-
+.content {
+    margin: auto 0;
+    max-width: 1600px ;
+}
 nav a {
     text-align: center;
-    color: #8b93a9;
+    color: #000000;
     text-decoration: none;
 }
 nav a:hover {
@@ -54,12 +57,13 @@ main section {
 
 .backround {
     height: 725px;
+    background-color: #000000;
 }
 body {
     background-color:aliceblue; 
 }
 header {
-    background-color: #8b93a9;
+    background-color: #738f7f;
 }
 nav a:hover {
     background-color: black;
@@ -71,9 +75,7 @@ nav a:hover {
 .book:hover, .join:hover {
     background-color: rgb(179, 179, 179);
 }
-.background {
-    background-color: rgb(98, 113, 127);
-}
+
 .msg {
     background-color: rgb(103, 137, 137);
 }
