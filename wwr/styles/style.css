@@ -55,9 +55,9 @@ main section {
     text-align: center;
 }
 
-.backround {
+#background {
     height: 725px;
-    background-color: #000000;
+    background-color: #a26a6a;
 }
 body {
     background-color:aliceblue; 
@@ -88,7 +88,7 @@ footer {
 .icon {
     width: 80px;
 }
-.hero-img {
+#hero-img {
     width: 100%;
 }
 footer p {
