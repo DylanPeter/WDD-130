@@ -1,0 +1,19 @@
+body {
+    background-color: #737373;
+}
+
+.circles_picture {
+    height: auto;
+    width: 100%;
+}
+
+.circle_pictures {
+    border: 15px solid #444444;
+    border-radius: 50%;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-rows: 100fr 100fr;
+    gap: 50px 50px;
+}
