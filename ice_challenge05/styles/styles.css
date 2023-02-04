@@ -14,6 +14,6 @@ body {
 
 .grid-container {
     display:grid;
-    grid-template-rows: 100fr 100fr;
+    grid-template-rows: 20fr 20fr;
     gap: 50px 50px;
 }

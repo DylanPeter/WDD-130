@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@500&display=swap');
+
 body {
     max-width: 1600px;
     margin: 0 auto;
+    background-color:aliceblue; 
+    font-family: 'Rubik' 'Roboto';
+    margin: 0;
+    padding: 0;
 }
+#logo_link {
+    padding-top: 5px;
+}
+
 .content {
     margin: auto 0;
     max-width: 1600px ;
@@ -10,31 +20,49 @@ nav a {
     text-align: center;
     color: #000000;
     text-decoration: none;
+    padding: 35px
 }
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
 .home-title {
-    color: black;
+    color: rgb(9, 9, 9);
+    font-family: 'roboto';
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
 }
+
+h2 {
+    margin: 0;
+}
+
 h4{
     color: black;
+    text-align: center;
 }
 .book, .join{
-    color: black;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     color: blanchedalmond;
 }
 .msg h2{
-    color: black;
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik';
 }
 .msg p{
-    color: black;
+    color: rgba(0, 0, 0, 0.754);
+    font-size: .9em;
+    padding-bottom: 15px;
 }
-footer{
-    color: black;
+
+footer .social img {
+    padding-top: 15px; 
 }
 footer a {
     color: black;
@@ -54,13 +82,13 @@ footer a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
     background-color: #a26a6a;
-}
-body {
-    background-color:aliceblue; 
 }
 header {
     background-color: #738f7f;
@@ -71,22 +99,31 @@ nav a:hover {
 .book, .join {
     background-color: rgb(156, 198, 234);
     text-decoration: none;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: rgb(179, 179, 179);
 }
-
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0a;
+}
 .msg {
     background-color: rgb(103, 137, 137);
+    font-size: 1.5em;
+    padding: 35px;
 }
 footer {
-    background-color: rgb(81, 91, 100);
+    background-color: rgb(85, 119, 152);
+    margin-top: 200px;
+    color: black;
+    padding: 25px 50px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -97,4 +134,8 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+.card-img {
+    border: 10px; 
+}
                
