@@ -8,8 +8,11 @@ body {
     margin: 0;
     padding: 0;
 }
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 #logo_link {
-    padding-top: 5px;
     padding-top: 5px;
     justify-self: center;
     align-self: center;
