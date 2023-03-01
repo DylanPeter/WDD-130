@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+body{
+    width: 300px;  
+    font-family: "Zilla Slab";
+}
+
+.city_img{
+    width: auto;
+}
+
+h3{
+    text-align: center;
+    width: auto;
+    color: #405c89;
+}
+
+.grid-container sup {
+    font-size: 12px;
+}
+
+h1{
+    text-align: center;
+    width: auto;
+}
+
+h2{
+    text-align: center;
+    width: auto;
+}
+
+p{
+    text-align: center;
+    width: auto;
+    color: #8b808b;
+    padding: 25px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: #808080;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-container h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-container p{
+    color: white;
+    font-size: 9px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+    width: auto;
+}
+
+.left{
+    grid-column: 1;
+    background-color: #405c8c;
+    height: auto;
+    width: 100px;
+    margin-right: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;    
+    background-color: #405c8c;
+    height: auto;
+    width: 100px;
+    margin-right: 2px;
+}
+
+.right{
+    grid-column: 3;
+    background-color: #405c8c;
+    height: auto;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
