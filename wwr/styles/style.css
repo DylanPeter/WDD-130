@@ -206,6 +206,87 @@ nav {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+/* sub-page html css*/
+
+#head-tag {
+    text-align: center;
+    font-size: 25px;
+    font-family: rubik;
+    font-weight: bold;
+    
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto
+    
+    
+}
+.rivers-img {
+    width:300px;
+    height:300px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.rafting-img {
+    width:300px;
+    height:300px;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.photo-2 {
+    grid-column: 0/3;
+    grid-row: 2;
+    margin-top: auto;
+}
+.paragraph-one {
+    font-size: 10px;
+    font-family: roboto;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #738f7f;;
+}
+.paragraph-one p {
+    font-size: 15px;
+    font-family: roboto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.paragraph-two {
+    font-size: 10px;
+    font-family: roboto;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #738f7f;
+}
+.paragraph-two p {
+    font-size: 15px;
+    font-family: roboto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
