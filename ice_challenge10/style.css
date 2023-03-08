@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.column-1 {
+    grid-column: 1/2;
+    font-size: 15px ;
+    
+}
+.picture {
+    width: 200px;
+    height: 100px;
+}
