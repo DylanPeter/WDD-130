@@ -81,7 +81,7 @@ nav {
     text-align: center;
 }
 .book{
-    background-color: #5C5552;
+    background-color: #DECBB7;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -89,7 +89,7 @@ nav {
     text-align: center;
 }
 .book {
-    color: white;
+    color: #433633;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -157,7 +157,8 @@ main-area {
     justify-content: center;
 }
 .card1-img1 {
-    width: 300px;
+    width: 250px;
+    height: 300px;
     padding-left: 25px;
     display: block;
     margin-left: auto;
